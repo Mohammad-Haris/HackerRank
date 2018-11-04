@@ -3,6 +3,7 @@
 namespace HackerRank
 {
     /// <summary>
+    /// Kangaroo
     /// Problem solving: Algorithms
     /// Difficulty: Easy
     /// SubDomain: Implementation
@@ -26,11 +27,8 @@ namespace HackerRank
                 }
 
                 else
-                {
-                    decimal meetPoint = (decimal)(x2 - x1) / (v1 - v2);
-
-                    // after the && I am checking if the result is a whole number or not (only whole number values are correct)
-                    if (meetPoint > 0 && meetPoint == Math.Floor(meetPoint))
+                {                    
+                    if (((x2 - x1) / (v1 - v2)) > 0 && ((x2 - x1) % (v1 - v2) == 0))
                     {
                         return "YES";
                     }
