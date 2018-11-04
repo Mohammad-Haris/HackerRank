@@ -3,6 +3,7 @@
 namespace HackerRank
 {
     /// <summary>
+    /// Problem solving: Algorithms
     /// Difficulty: Easy
     /// SubDomain: Implementation
     /// https://www.hackerrank.com/challenges/kangaroo/problem
