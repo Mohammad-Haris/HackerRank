@@ -6,7 +6,6 @@ namespace HackerRank
     {        
         static void Main(string[] args)
         {
-            Kangaroo.Call();
         }
     }
 }
