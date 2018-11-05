@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HackerRank
+namespace HackerRank.Source
 {
     /// <summary>
     /// Kangaroo
