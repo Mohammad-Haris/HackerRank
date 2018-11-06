@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HackerRank.Source
+namespace HackerRank.Source.Algorithms.Easy.Implementation
 {
     /// <summary>
     /// Save The Prisoner

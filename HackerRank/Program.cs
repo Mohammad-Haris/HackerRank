@@ -1,5 +1,5 @@
 ﻿using System;
-using HackerRank.Source;
+using HackerRank.Source.Algorithms.Easy.Implementation;
 
 namespace HackerRank
 {
