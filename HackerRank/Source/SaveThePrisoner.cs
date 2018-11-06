@@ -3,7 +3,7 @@
 namespace HackerRank.Source
 {
     /// <summary>
-    /// Save the prisoner
+    /// Save The Prisoner
     /// Problem solving: Algorithms
     /// Difficulty: Easy
     /// SubDomain: Implementation
@@ -12,7 +12,7 @@ namespace HackerRank.Source
 
     static class SaveThePrisoner
     {
-        static int Apply(int numPris, int numSwts, int start)
+        static int Implement(int numPris, int numSwts, int start)
         {
             int result = (numSwts + start - 1) % numPris;
 
@@ -24,7 +24,7 @@ namespace HackerRank.Source
             return result;
         }
 
-        internal static void Call()
+        internal static void Apply()
         {
             int iterations = Convert.ToInt32(Console.ReadLine());
 
@@ -38,9 +38,7 @@ namespace HackerRank.Source
 
                 int strt = Convert.ToInt32(nss[2]);
 
-                int result = Apply(numps, swts, strt);
-
-                Console.WriteLine(result);
+                Console.WriteLine(Implement(numps, swts, strt));
             }
         }
     }

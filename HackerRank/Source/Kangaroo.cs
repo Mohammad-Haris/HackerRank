@@ -12,7 +12,7 @@ namespace HackerRank.Source
 
     static class Kangaroo
     {
-        static string Apply(int x1, int v1, int x2, int v2)
+        static string Implement(int x1, int v1, int x2, int v2)
         {
             if ((x1 == x2 && v1 != v2) || (v1 == v2 && x1 != x2))
             {
@@ -41,17 +41,7 @@ namespace HackerRank.Source
             }
         }
 
-        static bool Validate(int x1, int v1, int x2, int v2)
-        {
-            if (x1 > 10000 || x1 < 0 || x2 > 10000 || x2 < 0 || v1 < 1 || v1 > 10000 || v2 < 1 || v2 > 10000)
-            {
-                return false;
-            }
-
-            return true;
-        }
-
-        internal static void Call()
+        internal static void Apply()
         {
             string[] x1V1X2V2 = Console.ReadLine().Split(' ');
 
@@ -63,16 +53,7 @@ namespace HackerRank.Source
 
             int v2 = Convert.ToInt32(x1V1X2V2[3]);
 
-            if (Validate(x1, v1, x2, v2))
-            {
-                string result = Apply(x1, v1, x2, v2);
-                Console.WriteLine(result);
-            }
-
-            else
-            {
-                throw new Exception("Invalid Input");
-            }
+            Console.WriteLine(Implement(x1, v1, x2, v2));
         }
     }
 }
