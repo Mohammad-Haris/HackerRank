@@ -12,7 +12,7 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
 
     static class Kangaroo
     {
-        static string Implement(int x1, int v1, int x2, int v2)
+        static string Implement (int x1, int v1, int x2, int v2)
         {
             if ((x1 == x2 && v1 != v2) || (v1 == v2 && x1 != x2))
             {
@@ -27,7 +27,7 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
                 }
 
                 else
-                {                    
+                {
                     if (((x2 - x1) / (v1 - v2)) > 0 && ((x2 - x1) % (v1 - v2) == 0))
                     {
                         return "YES";
@@ -41,7 +41,7 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
             }
         }
 
-        internal static void Apply()
+        internal static void Apply ()
         {
             string[] x1V1X2V2 = Console.ReadLine().Split(' ');
 

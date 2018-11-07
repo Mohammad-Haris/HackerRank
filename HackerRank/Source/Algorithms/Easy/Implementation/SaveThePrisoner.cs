@@ -12,7 +12,7 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
 
     static class SaveThePrisoner
     {
-        static int Implement(int numPris, int numSwts, int start)
+        static int Implement (int numPris, int numSwts, int start)
         {
             int result = (numSwts + start - 1) % numPris;
 
@@ -24,7 +24,7 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
             return result;
         }
 
-        internal static void Apply()
+        internal static void Apply ()
         {
             int iterations = Convert.ToInt32(Console.ReadLine());
 

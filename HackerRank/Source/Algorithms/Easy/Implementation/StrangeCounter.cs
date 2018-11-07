@@ -12,7 +12,7 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
 
     class StrangeCounter
     {
-        static long Implement(long time)
+        static long Implement (long time)
         {
             switch (time)
             {
@@ -39,7 +39,7 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
             }
         }
 
-        static long LongPow(long x, long pow)
+        static long LongPow (long x, long pow)
         {
             long result = 1;
             while (pow != 0)
@@ -50,7 +50,7 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
             return result;
         }
 
-        internal static void Apply()
+        internal static void Apply ()
         {
             long time = Convert.ToInt64(Console.ReadLine());
 
