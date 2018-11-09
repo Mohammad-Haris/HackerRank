@@ -24,6 +24,12 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
             return result;
         }
 
+        /// <summary>
+        /// Input format:
+        /// First line: Number of test cases
+        /// Second line: Space seperated int values for number of prisoners, number of sweets and start point
+        /// </summary>
+        
         internal static void Apply ()
         {
             int iterations = Convert.ToInt32(Console.ReadLine());

@@ -50,6 +50,11 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
             return result;
         }
 
+        /// <summary>
+        /// Input format:
+        /// First line: Time to find the value at
+        /// </summary>
+        
         internal static void Apply ()
         {
             long time = Convert.ToInt64(Console.ReadLine());

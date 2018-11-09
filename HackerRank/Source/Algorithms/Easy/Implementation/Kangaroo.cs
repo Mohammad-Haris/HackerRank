@@ -41,6 +41,11 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
             }
         }
 
+        /// <summary>
+        /// Input format:
+        /// First line: Space seperated values for start point and speed of first and second kangaroo. Start, speed and kangaroos all are space seperated
+        /// </summary>
+        
         internal static void Apply ()
         {
             string[] x1V1X2V2 = Console.ReadLine().Split(' ');

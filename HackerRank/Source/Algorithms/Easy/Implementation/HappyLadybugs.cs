@@ -65,6 +65,12 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
             }
         }
 
+        /// <summary>
+        /// Input format:
+        /// First line: Number of test cases
+        /// Second line: String of ladybugs and spaces
+        /// </summary>
+        
         internal static void Apply ()
         {
             int games = Convert.ToInt32(Console.ReadLine());
@@ -72,10 +78,8 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
             for (int gameItr = 0; gameItr < games; gameItr++)
             {
                 string input = Console.ReadLine();
-
-                string result = Implement(input);
-
-                Console.WriteLine(result);
+                
+                Console.WriteLine(Implement(input));
             }
         }
     }
