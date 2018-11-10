@@ -7,7 +7,7 @@ namespace HackerRank.Source.Algorithms.Easy.Search
     static class SherlockAndArray
     {
         /// <summary>
-        /// Kangaroo
+        /// Sherlock and Array
         /// Problem solving: Algorithms
         /// Difficulty: Easy
         /// SubDomain: Search
