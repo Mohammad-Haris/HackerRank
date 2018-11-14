@@ -10,7 +10,7 @@ using HackerRank.Source.Algorithms.Easy.Search;
 namespace HackerRank
 {
     class Program
-    {        
+    {       
         static void Main (string[] args)
         {
         }
