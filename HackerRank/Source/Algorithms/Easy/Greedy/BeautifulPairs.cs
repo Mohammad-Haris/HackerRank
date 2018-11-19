@@ -62,8 +62,8 @@ namespace HackerRank.Source.Algorithms.Easy.Greedy
 
         /// <summary>
         /// Input format:
-        /// First line: n space seperated ints
-        /// Second line: n space seperated ints
+        /// First line: an array of space seperated ints
+        /// Second line: an array of space seperated ints
         /// </summary>
 
         internal static void Apply ()
