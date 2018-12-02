@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace HackerRank.Source.Algorithms.Easy.BitManipulation
 {
@@ -20,12 +18,12 @@ namespace HackerRank.Source.Algorithms.Easy.BitManipulation
 
             while (num != 0)
             {
-                if (num % 2 == 1)   // the information we get from this mod is that the num is at least greater than 2. other than in the case of 1
+                if (num % 2 == 0)
                 {
                     zeroBits++;
                 }
 
-                num /= 2;           // skips through bits
+                num /= 2;
             }
 
             return LongPow(zeroBits);
@@ -46,7 +44,7 @@ namespace HackerRank.Source.Algorithms.Easy.BitManipulation
         /// Input format:
         /// First line: long number        
         /// </summary>
-        
+
         internal static void Apply ()
         {
             long num = Convert.ToInt64(Console.ReadLine().Trim());

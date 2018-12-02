@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HackerRank.Source.Algorithms.Hard.Implementation
 {
-    class MatrixLayerRotation
+    static class MatrixLayerRotation
     {
         /// <summary>
         /// Matrix Layer Rotation
