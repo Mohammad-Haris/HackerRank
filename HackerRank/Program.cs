@@ -11,13 +11,15 @@ using HackerRank.Source.Algorithms.Hard.DynamicProgramming;
 using HackerRank.Source.Algorithms.Hard.Implementation;
 using HackerRank.Source.Algorithms.Hard.GraphTheory;
 using HackerRank.Source.Algorithms.Advanced.GraphTheory;
+using System.IO;
 
 namespace HackerRank
 {
-    class Program
-    {       
+    static class Program
+    {
         static void Main (string[] args)
         {
+
         }
     }
 }
