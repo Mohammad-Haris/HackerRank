@@ -12,7 +12,7 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
     /// https://www.hackerrank.com/challenges/sherlock-and-squares/problem
     /// </summary>    
 
-    class SherlockAndSquares
+    static class SherlockAndSquares
     {
         static int Implement (int start, int end)
         {

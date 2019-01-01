@@ -3,36 +3,34 @@
 namespace HackerRank.Source.Algorithms.Easy.Implementation
 {
     /// <summary>
-    /// Find Digits
+    /// Utopian Tree
     /// Problem solving: Algorithms
     /// Difficulty: Easy
     /// SubDomain: Implementation
-    /// https://www.hackerrank.com/challenges/find-digits/problem
+    /// https://www.hackerrank.com/challenges/utopian-tree/problem
     /// </summary>
 
-    static class FindDigits
+    static class UtopianTree
     {
-        static int Implement (int n)
+        static int Implement (int cycles)
         {
-            int current, divisors = 0, divided = n;
+            int height = 1;
+            bool spring = true;
 
-            while (true)
+            for (int itr = 0; itr < cycles; itr++)
             {
-                current = divided % 10;
-                divided /= 10;
-
-                if (current != 0 && n % current == 0)
+                if (spring)
                 {
-                    divisors++;
+                    height *= 2;
+                    spring = !spring;
+                    continue;
                 }
 
-                if (divided == 0)
-                {
-                    break;
-                }
+                height++;
+                spring = !spring;
             }
 
-            return divisors;
+            return height;
         }
 
         /// <summary>
@@ -40,7 +38,7 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
         /// First line: Number of test cases t
         /// Next t lines: Integers
         /// </summary>
-
+        
         internal static void Apply ()
         {
             int t = Convert.ToInt32(Console.ReadLine());

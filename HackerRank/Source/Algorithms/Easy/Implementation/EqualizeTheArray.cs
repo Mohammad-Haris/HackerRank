@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace HackerRank.Source.Algorithms.Easy.Implementation
 {
-    class EqualizeTheArray
+    static class EqualizeTheArray
     {
         /// <summary>
         /// Equalize The Array

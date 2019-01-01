@@ -11,7 +11,7 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
     /// https://www.hackerrank.com/challenges/happy-ladybugs/problem
     /// </summary>
 
-    class HappyLadybugs
+    static class HappyLadybugs
     {
         static string Implement (string input)
         {

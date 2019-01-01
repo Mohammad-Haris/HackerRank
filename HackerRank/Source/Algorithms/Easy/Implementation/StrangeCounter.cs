@@ -10,7 +10,7 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
     /// https://www.hackerrank.com/challenges/strange-code/problem
     /// </summary>
 
-    class StrangeCounter
+    static class StrangeCounter
     {
         static long Implement (long time)
         {

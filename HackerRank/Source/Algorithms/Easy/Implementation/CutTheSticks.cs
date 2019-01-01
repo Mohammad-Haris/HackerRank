@@ -12,7 +12,7 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
     /// https://www.hackerrank.com/challenges/cut-the-sticks/problem
     /// </summary>
 
-    class CutTheSticks
+    static class CutTheSticks
     {
         static int[] Implement (int[] arr)
         {

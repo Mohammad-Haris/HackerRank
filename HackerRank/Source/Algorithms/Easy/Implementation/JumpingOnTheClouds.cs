@@ -10,7 +10,7 @@ namespace HackerRank.Source.Algorithms.Easy.Implementation
     /// https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem
     /// </summary>
 
-    class JumpingOnTheClouds
+    static class JumpingOnTheClouds
     {
         static int Implement (int[] clouds)
         {
