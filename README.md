@@ -1,4 +1,7 @@
 # HackerRank
+
+<a href="https://www.hackerrank.com/Mohammad_Haris" display="inline">HackerRank Profile</a>
+
 A collection of HackerRank problems I have solved.
 All code is free to use with or without any mention.
 
